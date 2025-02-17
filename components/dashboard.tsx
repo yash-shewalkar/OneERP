@@ -3,7 +3,6 @@
 import { useState } from "react"
 import {
   ChevronDown,
-  Menu,
   Search,
   ShoppingCart,
   Package,
@@ -15,12 +14,12 @@ import {
 import Image from "next/image"
 import Link from "next/link"
 
-import { Button } from "@/components/ui/button"
+
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Sidebar, SidebarContent, SidebarHeader, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import { Sidebar, SidebarContent, SidebarHeader, SidebarProvider } from "@/components/ui/sidebar"
 
 const menuItems = [
   {
